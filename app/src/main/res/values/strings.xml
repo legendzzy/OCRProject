@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">我的记事本</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings1">可选的操作1</string>
+    <string name="action_settings2">可选的操作2</string>
+    <string name="action_settings3">可选的操作3</string>
+
+    <string-array name="event">
+        <item>（1）事项内容第一句       </item>
+        <item>（2）事项内容第一句       </item>
+        <item>（3）事项内容第一句       </item>
+        <item>（4）事项内容第一句       </item>
+    </string-array>
+    <string name="title_activity_add_event">我的记事本</string>
+    <string name="title_activity_edit_event">EditEventActivity</string>
+</resources>

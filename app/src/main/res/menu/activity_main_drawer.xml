@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<list_item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Import" />-->
+        <!--<list_item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<list_item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<list_item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    <!--</group>-->
+
+    <item android:title="标签" >
+        <menu>
+            <item
+                android:id="@+id/nav_travel"
+                android:icon="@drawable/ic_menu_send"
+                android:title="旅游" />
+            <item
+                android:id="@+id/nav_work"
+                android:icon="@drawable/ic_menu_send"
+                android:title="办公" />
+            <item
+                android:id="@+id/nav_self"
+                android:icon="@drawable/ic_menu_send"
+                android:title="个人" />
+            <item
+                android:id="@+id/nav_live"
+                android:icon="@drawable/ic_menu_send"
+                android:title="生活" />
+            <item
+            android:id="@+id/nav_none"
+            android:icon="@drawable/ic_menu_send"
+            android:title="未标记" />
+
+            <item
+                android:id="@+id/nav_manager"
+
+                android:title="编辑标签"
+                />
+
+
+        </menu>
+    </item>
+
+</menu>
