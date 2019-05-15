@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fitsSystemWindows="true"
-    tools:context="com.example.yunlong.ocrproject.EventActivity.AddEventActivity">
+    tools:context="com.example.yunlong.ocrproject.Activity.AddEventActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -28,19 +28,12 @@
     <include layout="@layout/content_add_event" />
 
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabRemind"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:layout_margin="@dimen/fab_margin"
 
-        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
+        android:layout_gravity="bottom|left"
         android:layout_margin="@dimen/fab_margin"
 
         app:srcCompat="@android:drawable/ic_menu_camera" />

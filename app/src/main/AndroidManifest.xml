@@ -12,10 +12,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity.EditLabelActivity"></activity>
         <activity
-            android:name=".EventActivity.EditEventActivity"
-            android:label="@string/title_activity_edit_event"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".Activity.EditEventActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -27,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EventActivity.AddEventActivity"
+            android:name=".Activity.AddEventActivity"
             android:label="@string/title_activity_add_event"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

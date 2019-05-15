@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EventActivity.EditEventActivity">
+    tools:context=".Activity.EditEventActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -23,19 +23,12 @@
 
     <include layout="@layout/content_edit_event" />
 
+
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabEditRemind"
+        android:id="@+id/fabCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|left"
-        android:layout_margin="@dimen/fab_margin"
-
-        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabEditCamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
         android:layout_margin="@dimen/fab_margin"
 
         app:srcCompat="@android:drawable/ic_menu_camera" />

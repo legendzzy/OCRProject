@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".EventActivity.EditEventActivity"
+    tools:context=".Activity.EditEventActivity"
     tools:showIn="@layout/activity_edit_event">
 
     <LinearLayout
@@ -16,9 +16,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_get"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"/>
+
         <Spinner android:id="@+id/Spinner01"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></Spinner>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"></Spinner>
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,7 +38,7 @@
             android:layout_gravity="right"
             android:id="@+id/edit_date"
             android:text="日期"
-            android:layout_marginLeft="100dp"/>
+            />
     </LinearLayout>
 
     <EditText
